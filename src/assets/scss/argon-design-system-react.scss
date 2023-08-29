@@ -18,6 +18,7 @@
 
 // Bootstrap Functions
 @import "../../../node_modules/bootstrap/scss/functions";
+$enable-responsive-font-sizes: true;
 
 // Theme Variables
 @import "argon-design-system/variables";
@@ -30,3 +31,5 @@
 
 // React Differences
 @import "react/react-differences";
+
+@import "./custom.scss"
