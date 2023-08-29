@@ -27,7 +27,7 @@ class SimpleFooter extends React.Component {
               <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
-                    <NavLink href="/admin">Admin</NavLink>
+                    <NavLink href="/#/admin">Admin</NavLink>
                   </NavItem>
                 </Nav>
               </Col>
