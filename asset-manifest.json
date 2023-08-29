@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.344b8f29.css",
-    "main.js": "/static/js/main.6a57cd32.js",
+    "main.css": "/static/css/main.757fa0af.css",
+    "main.js": "/static/js/main.ca156fee.js",
+    "static/media/expo.png": "/static/media/expo.4bed9e5ead0c9212c445.png",
+    "static/media/drone.png": "/static/media/drone.80e66aaf309aab4915ce.png",
+    "static/media/radio1.jpg": "/static/media/radio1.9984e8b989d8452e36c4.jpg",
+    "static/media/radio2.jpg": "/static/media/radio2.8a785e6b6d07bb4d89dc.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/mirror.jpg": "/static/media/mirror.47d60dfc9393a11a6c7e.jpg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/team-2-800x800.jpg": "/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
-    "static/media/img-1-1200x1000.jpg": "/static/media/img-1-1200x1000.df1442cf520034feb3b0.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/team-3-800x800.jpg": "/static/media/team-3-800x800.70911cddbb86ea83b652.jpg",
-    "static/media/team-1-800x800.jpg": "/static/media/team-1-800x800.fa5a7ac2c81a43925586.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/landing.jpg": "/static/media/landing.530e5e3e621fe49e8e46.jpg",
     "static/media/nucleo-icons.svg": "/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
-    "static/media/team-4-800x800.jpg": "/static/media/team-4-800x800.99c612eb60728a5aeeb0.jpg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/profile.jpg": "/static/media/profile.991e6d2c8d229cc026b3.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/logo_main.png": "/static/media/logo_main.7f561a6db6794422e103.png",
-    "static/media/ill-2.svg": "/static/media/ill-2.b82bc41ca8f27286779053cc2a544e93.svg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/logo_white.png": "/static/media/logo_white.4feea51b3c9c864a04f5.png",
@@ -32,12 +29,10 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "static/media/google.svg": "/static/media/google.eae9aa9354350126d1b032847835a051.svg",
-    "static/media/github.svg": "/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.344b8f29.css",
-    "static/js/main.6a57cd32.js"
+    "static/css/main.757fa0af.css",
+    "static/js/main.ca156fee.js"
   ]
 }
