@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.757fa0af.css",
-    "main.js": "/static/js/main.ca156fee.js",
+    "main.js": "/static/js/main.fc1d56ea.js",
     "static/media/expo.png": "/static/media/expo.4bed9e5ead0c9212c445.png",
     "static/media/drone.png": "/static/media/drone.80e66aaf309aab4915ce.png",
     "static/media/radio1.jpg": "/static/media/radio1.9984e8b989d8452e36c4.jpg",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.757fa0af.css",
-    "static/js/main.ca156fee.js"
+    "static/js/main.fc1d56ea.js"
   ]
 }
