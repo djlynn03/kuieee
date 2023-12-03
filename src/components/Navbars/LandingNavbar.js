@@ -47,7 +47,7 @@ function LandingNavbar(props) {
   };
 
   const scrollNavigate = (target) => {
-    navigate("/#" + target, { relative: false });
+    navigate("#" + target);
   };
 
   return (
@@ -61,14 +61,14 @@ function LandingNavbar(props) {
           <Container>
             <NavbarBrand
               className="mr-lg-5"
-              to="/"
+              // to="/"
               tag={Link}
-              onClick={() => scrollNavigate("home")}
+              onClick={() => navigate("/#")}
             >
               <img
                 alt="..."
                 className="img-fluid"
-                src={require("assets/img/brand/logo_white.png")}
+                src={require("assets/img/brand/logo_white.webp")}
                 style={{ height: "50px" }}
               />
             </NavbarBrand>
@@ -88,7 +88,7 @@ function LandingNavbar(props) {
                     <Link to="/">
                       <img
                         alt="..."
-                        src={require("assets/img/brand/logo_main.png")}
+                        src={require("assets/img/brand/logo_main.webp")}
                       />
                     </Link>
                   </Col>
@@ -104,7 +104,7 @@ function LandingNavbar(props) {
                 <NavItem>
                   <NavLink
                     className="nav-link-icon"
-                    onClick={() => scrollNavigate("about")}
+                    onClick={() => navigate("/#about")}
                   >
                     <span className="nav-link-inner--text ml-2">About</span>
                   </NavLink>
@@ -112,7 +112,7 @@ function LandingNavbar(props) {
                 <NavItem>
                   <NavLink
                     className="nav-link-icon"
-                    onClick={() => scrollNavigate("projects")}
+                    onClick={() => navigate("/#projects")}
                   >
                     <span className="nav-link-inner--text ml-2">
                       Our Projects
@@ -122,7 +122,7 @@ function LandingNavbar(props) {
                 <NavItem>
                   <NavLink
                     className="nav-link-icon"
-                    onClick={() => scrollNavigate("calendar")}
+                    onClick={() => navigate("/#calendar")}
                   >
                     <span className="nav-link-inner--text ml-2">Calendar</span>
                   </NavLink>

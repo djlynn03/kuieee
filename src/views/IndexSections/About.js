@@ -5,14 +5,44 @@ import { Col, Container, Row, UncontrolledCarousel } from "reactstrap";
 const images = [
   // these need to be 1920x1080 (or similar aspect ratio)
   {
-    src: require("assets/img/slideshows/expo.png"),
+    src: require("assets/img/slideshows/panel.webp"),
+    altText: "Career Panel",
+    caption: "",
+    header: "",
+  },
+  {
+    src: require("assets/img/slideshows/lecture1.webp"),
+    altText: "Speaker",
+    caption: "",
+    header: "",
+  },
+  {
+    src: require("assets/img/slideshows/expo.webp"),
     altText: "Engineering Expo",
     caption: "",
     header: "",
   },
   {
-    src: require("assets/img/slideshows/radio1.jpg"),
+    src: require("assets/img/slideshows/lecture2.webp"),
+    altText: "Speaker",
+    caption: "",
+    header: "",
+  },
+  {
+    src: require("assets/img/slideshows/radio1.webp"),
     altText: "Project",
+    caption: "",
+    header: "",
+  },
+  {
+    src: require("assets/img/slideshows/ken.webp"),
+    altText: "Speaker",
+    caption: "",
+    header: "",
+  },
+  {
+    src: require("assets/img/slideshows/metaldetector.webp"),
+    altText: "Project Meeting",
     caption: "",
     header: "",
   },

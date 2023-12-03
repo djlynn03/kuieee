@@ -27,7 +27,7 @@ class CardsFooter extends React.Component {
                   <Link to="/landing-page">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/landing.jpg")}
+                      src={require("assets/img/theme/landing.webp")}
                     />
                   </Link>
                 </Card>
@@ -37,7 +37,7 @@ class CardsFooter extends React.Component {
                   <Link to="/profile-page">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/profile.jpg")}
+                      src={require("assets/img/theme/profile.webp")}
                     />
                   </Link>
                 </Card>

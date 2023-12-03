@@ -20,7 +20,7 @@
 }
 
 .carousel-item > img {
-  filter: blur(1px) brightness(0.9);
+  filter: brightness(0.9);
 }
 .carousel-caption {
   h3 {
@@ -35,6 +35,51 @@
   transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg)
     rotate(2deg);
 }
-// hr {
-//   width: 80%;
-// }
+.headshot-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 10%;
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    > img {
+      width: 150px;
+      border-radius: 0.5rem;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    }
+    > p, strong{
+      font-size: larger;
+    }
+  }
+}
+
+.current-projects{
+  gap: 30px;
+  .card{
+    width: 40%;
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+    }
+  }
+}
+.previous-projects{
+  gap: 30px;
+  .card{
+    width: 25%;
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+    }
+  }
+}
+.officers-list{
+  @media screen and (min-width: 992px) {
+    border-right: 1px solid #dee2e6 !important;
+  }
+  @media screen and (max-width: 992px) {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+}

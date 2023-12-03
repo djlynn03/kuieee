@@ -19,6 +19,8 @@ import SimpleFooter from "components/Footers/SimpleFooter.js";
 import { useLocation } from "react-router-dom";
 import { About } from "./IndexSections/About.js";
 import { Projects } from "./IndexSections/Projects.js";
+import { Officers } from "./IndexSections/Officers.js";
+import { ProjectLeads } from "./IndexSections/ProjectLeads.js";
 
 // import { withRouter } from "react-router-dom";
 
@@ -35,7 +37,9 @@ function Index(props) {
     } else if (window.location.href.includes("#about")) {
       document.getElementById("about").scrollIntoView({ behavior: "smooth" });
     } else if (window.location.href.includes("#projects")) {
-      document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+      document
+        .getElementById("projects")
+        .scrollIntoView({ behavior: "smooth" });
     } else {
       document.getElementById("home").scrollIntoView({ behavior: "smooth" });
     }
@@ -58,6 +62,10 @@ function Index(props) {
         <hr />
         <Projects />
         <hr />
+        <Officers />
+        <hr />
+        {/* <ProjectLeads />
+        <hr /> */}
         <Calendar id="calendar" />
       </main>
       <SimpleFooter />

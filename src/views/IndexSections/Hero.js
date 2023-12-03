@@ -19,7 +19,7 @@ function Hero(props) {
                     <img
                       alt="..."
                       className="img-fluid px-3"
-                      src={require("assets/img/brand/ieee_icon_white.png")}
+                      src={require("assets/img/brand/ieee_icon_white.webp")}
                       style={{ width: 150 }}
                     />
                     <span className="text-white display-1 font-weight-bolder">
@@ -29,7 +29,7 @@ function Hero(props) {
                     <img
                       alt="..."
                       className="img-fluid px-3"
-                      src={require("assets/img/brand/ku_logo_white.png")}
+                      src={require("assets/img/brand/ku_logo_white.webp")}
                       style={{ width: 150 }}
                     />
                   </Row>

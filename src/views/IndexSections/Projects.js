@@ -20,54 +20,136 @@ export function Projects(props) {
       <Row className="justify-content-center" id="projects">
         <h2>Our Projects</h2>
       </Row>
-      <Row
-        className="p-5 justify-content-center justify-content-md-center"
-        id="projects"
-        style={{ gap: 10 }}
-      >
-        <Card className="">
-          <CardImg
-            src={require("assets/img/slideshows/drone.png")}
-            top
-            height={imgHeight}
-            style={{ objectFit: "cover" }}
-          />
-          <CardBody
-            className="bg-primary text-white"
-            style={{ borderRadius: "0 0 5px 5px" }}
-          >
-            <h3 className="text-white display-4">RC Drone</h3>
-          </CardBody>
-        </Card>
-        <Card>
-          <CardImg
-            src={require("assets/img/slideshows/mirror.jpg")}
-            top
-            height={imgHeight}
-            style={{ objectFit: "cover" }}
-          />
-          <CardBody
-            className="bg-primary text-white"
-            style={{ borderRadius: "0 0 5px 5px" }}
-          >
-            <h3 className="text-white display-4">Smart Mirror</h3>
-          </CardBody>
-        </Card>
-        <Card>
-          <CardImg
-            src={require("assets/img/slideshows/radio2.jpg")}
-            top
-            height={imgHeight}
-            style={{ objectFit: "cover" }}
-          />
-          <CardBody
-            className="bg-primary text-white"
-            style={{ borderRadius: "0 0 5px 5px" }}
-          >
-            <h3 className="text-white display-4">FM Radio</h3>
-          </CardBody>
-        </Card>
-      </Row>
+      <Container>
+        <h4>2023-2024</h4>
+        <hr className="my-3" />
+        <Row
+          className="px-3 justify-content-center justify-content-md-center current-projects"
+        >
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/solar.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">Solar Station</h3>
+              <small>
+                Solar powered charging station for phones and other mobile
+                devices
+              </small>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/metaldetector.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white w-max-50"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">Metal Detector</h3>
+              <small>
+                Small handheld metal detector using a coil to discover
+                conductive metals in its electromagnetic field
+              </small>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/boardgame.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">Interactive Board Game</h3>
+              <small>
+                Small handheld metal detector using a coil to discover
+                conductive metals in its electromagnetic field
+              </small>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/speaker.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">Bluetooth Speaker</h3>
+              <small>
+                Bluetooth speaker controlled by an Arduino with RGB LEDs and a
+                custom-built wood and plexiglass enclosure
+              </small>
+            </CardBody>
+          </Card>
+        </Row>
+      </Container>
+      <Container className="mt-5">
+        <h4>2022-2023</h4>
+        <hr className="my-3" />
+        <Row
+          className="px-3 justify-content-center justify-content-md-center previous-projects"
+        >
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/drone.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">RC Drone</h3>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/mirror.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">Smart Mirror</h3>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              src={require("assets/img/projects/radio2.webp")}
+              top
+              height={imgHeight}
+              style={{ objectFit: "cover" }}
+            />
+            <CardBody
+              className="bg-primary text-white"
+              style={{ borderRadius: "0 0 5px 5px" }}
+            >
+              <h3 className="text-white display-4">FM Radio</h3>
+            </CardBody>
+          </Card>
+        </Row>
+      </Container>
     </>
   );
 }
