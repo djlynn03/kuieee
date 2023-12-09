@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a52908e6.css",
-    "main.js": "/static/js/main.3c933a5c.js",
+    "main.css": "/static/css/main.c7f3ff2f.css",
+    "main.js": "/static/js/main.37b3b3e2.js",
     "static/media/metaldetector.webp": "/static/media/metaldetector.7335e5fe4c48506fe3ea.webp",
     "static/media/ken.webp": "/static/media/ken.71b95582ced87e18c4b3.webp",
     "static/media/lecture2.webp": "/static/media/lecture2.540c1f1225d1579c290f.webp",
@@ -30,6 +30,7 @@
     "static/media/boardgame.webp": "/static/media/boardgame.7fd0c4934c11a6056268.webp",
     "static/media/duncan.webp": "/static/media/duncan.acc2212039807a05763b.webp",
     "static/media/logo_main.webp": "/static/media/logo_main.7f561a6db6794422e103.webp",
+    "static/media/logo_no_ku.webp": "/static/media/logo_no_ku.5e698da1281d38fc6aaf.webp",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/aiden.webp": "/static/media/aiden.b8a6dd0bf52005df381f.webp",
     "static/media/david.webp": "/static/media/david.4fa8387e19cde418bc3f.webp",
@@ -50,7 +51,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.a52908e6.css",
-    "static/js/main.3c933a5c.js"
+    "static/css/main.c7f3ff2f.css",
+    "static/js/main.37b3b3e2.js"
   ]
 }
