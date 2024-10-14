@@ -14,50 +14,50 @@ export function Officers(props) {
           <Col>
             <strong>President</strong>
             <img
-              src={require("assets/img/officers/joe.webp")}
-              alt="Joe Bijoy"
-            />
-            <p>Joe Bijoy</p>
-          </Col>
-          <Col>
-            <strong>Vice President</strong>
-            <img
-              src={require("assets/img/officers/ron.webp")}
-              alt="Ron Heminway"
-            />
-            <p>Ron Heminway</p>
-          </Col>
-          <Col>
-            <strong>Treasurer</strong>
-            <img
-              src={require("assets/img/officers/arturo.webp")}
-              alt="Arturo Solorio"
-            />
-            <p>Arturo Solorio</p>
-          </Col>
-          <Col>
-            <strong>Treasurer</strong>
-            <img
               src={require("assets/img/officers/aiham.webp")}
               alt="Aiham Alhmoud"
             />
             <p>Aiham Alhmoud</p>
           </Col>
           <Col>
-            <strong>PR Chair</strong>
+            <strong>Vice President</strong>
             <img
-              src={require("assets/img/officers/cade.webp")}
-              alt="Cade Wilburn"
+              src={require("assets/img/officers/david.webp")}
+              alt="David Levy"
             />
-            <p>Cade Wilburn</p>
+            <p>David Levy</p>
           </Col>
           <Col>
-            <strong>EXPO Rep</strong>
+            <strong>Treasurer</strong>
             <img
-              src={require("assets/img/officers/duncan.webp")}
-              alt="Duncan Lynn"
+              src={require("assets/img/officers/jimena.webp")}
+              alt="Jimena Del Angel"
             />
-            <p>Duncan Lynn</p>
+            <p>Jimena Del Angel</p>
+          </Col>
+          <Col>
+            <strong>Secretary</strong>
+            <img
+              src={require("assets/img/officers/aiden.webp")}
+              alt="Aiden Martinez"
+            />
+            <p>Aiden Martinez</p>
+          </Col>
+          <Col>
+            <strong>PR Chair</strong>
+            <img
+              src={require("assets/img/officers/lily.webp")}
+              alt="Lily Bray"
+            />
+            <p>Lily Bray</p>
+          </Col>
+          <Col>
+            <strong>Project Director</strong>
+            <img
+              src={require("assets/img/officers/felipe.webp")}
+              alt="Felipe Tala"
+            />
+            <p>Felipe Tala</p>
           </Col>
         </Row>
       </Col>
@@ -67,24 +67,29 @@ export function Officers(props) {
         </Row>
         <Row className="headshot-list">
           <Col>
-            <strong>Solar Station</strong>
-            <img src={require("assets/img/project-leads/lily.webp")} />
-            <p>Lily Bray</p>
+            <strong>Solar E-Bike</strong>
+            <img src={require("assets/img/project-leads/momin.webp")} />
+            <p>Muhammad Momin Rahman</p>
           </Col>
           <Col>
-            <strong>Metal Detector</strong>
-            <img src={require("assets/img/project-leads/david.webp")} />
-            <p>David Levy</p>
+            <strong>Guitar Amp</strong>
+            <img src={require("assets/img/project-leads/julian.webp")} />
+            <p>Julian Gutierrez</p>
           </Col>
           <Col>
-            <strong>Interactive Board Game</strong>
-            <img src={require("assets/img/project-leads/cristian.webp")} />
-            <p>Cristian Amaro</p>
+            <strong>CyberDeck</strong>
+            <img src={require("assets/img/project-leads/daniel.webp")} />
+            <p>Daniel Bobadilla</p>
           </Col>
           <Col>
-            <strong>Bluetooth Speaker</strong>
-            <img src={require("assets/img/project-leads/aiden.webp")} />
-            <p>Aiden Martinez</p>
+            <strong>FM Radio</strong>
+            <img src={require("assets/img/project-leads/chris.webp")} />
+            <p>Chris Hawkins</p>
+          </Col>
+          <Col>
+            <strong>Parking Availability Software</strong>
+            <img src={require("assets/img/project-leads/lena.webp")} />
+            <p>Lena Palmieri</p>
           </Col>
         </Row>
       </Col>
