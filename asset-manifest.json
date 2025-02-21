@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37a15cb2.css",
-    "main.js": "/static/js/main.2212fc0c.js",
+    "main.js": "/static/js/main.ff5f04b0.js",
     "static/media/metaldetector.webp": "/static/media/metaldetector.7335e5fe4c48506fe3ea.webp",
     "static/media/ken.webp": "/static/media/ken.71b95582ced87e18c4b3.webp",
     "static/media/expo.webp": "/static/media/expo.4bed9e5ead0c9212c445.webp",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.37a15cb2.css",
-    "static/js/main.2212fc0c.js"
+    "static/js/main.ff5f04b0.js"
   ]
 }
