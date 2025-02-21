@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 import { Button, Container, Row, Col } from "reactstrap";
+import { getDatabase, ref, get, child } from "firebase/database";
+import moment from "moment";
 
 function Hero(props) {
   const navigate = useNavigate();
+  const [nextEvent, setNextEvent] = useState(null);
+
+  useEffect(() => {
+    const fetchEvents = async () => {
+      const dbRef = ref(getDatabase());
+      const snapshot = await get(child(dbRef, `events`));
+      if (snapshot.exists()) {
+        const events = Object.values(snapshot.val());
+        const upcomingEvents = events.filter(event => moment(event.start).isAfter(moment()));
+        const sortedEvents = upcomingEvents.sort((a, b) => moment(a.start) - moment(b.start));
+        setNextEvent(sortedEvents[0]);
+      }
+    };
+
+    fetchEvents();
+  }, []);
 
   return (
     <>
@@ -25,7 +42,6 @@ function Hero(props) {
                     <span className="text-white display-1 font-weight-bolder">
                       ×
                     </span>
-                    {/* <i className="ni ni-3x ni-fat-remove text-white" /> */}
                     <img
                       alt="..."
                       className="img-fluid px-3"
@@ -41,10 +57,6 @@ function Hero(props) {
                     <br />
                     IEEE Student Branch
                   </h1>
-                  {/* <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
-                    </p> */}
                   <div className="btn-wrapper mt-5">
                     <Button
                       className="btn-white mb-3 mb-sm-0 rounded-pill"
@@ -73,6 +85,27 @@ function Hero(props) {
             </svg>
           </div>
         </section>
+        {nextEvent && (
+          <section className="section bg-secondary">
+            <Container>
+              <Row className="justify-content-center">
+                <Col lg="8" className="text-center">
+                  <h2 className="display-3">Next Meeting</h2>
+                  <p className="lead">
+                    {nextEvent.title} on {moment(nextEvent.start).format('MMMM Do YYYY, h:mm a')}
+                    {nextEvent.room && ` in ${nextEvent.room}`}
+                  </p>
+                  <Button
+                    className="btn-primary mt-3"
+                    onClick={() => navigate("/#calendar")}
+                  >
+                    View Details
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+        )}
       </div>
     </>
   );
